@@ -272,6 +272,7 @@ void game_2(){
     char nome_jogador1[20], nome_jogador2[20];
     
     printf("Bem-vindos ao jogo Cobra Na Caixa!\n");
+    printf(" Esse é um jogo de sorte, onde ganha o jogador que descobrir a caixa que contém o botão \ne perde aquele que descobrir a caixa com a cobra. \nCada jogador deve informar seu primeiro nome e o computador escolherá aleatoriamente quem começa abrindo a primeira caixa. \nO jogador escolhido deve escolher uma das cinco caixas e o computador informará se há uma cobra, o botão ou nada dentro");
     printf("\nVoce gostaria de comecar?\n\n1 - Sim   2 - Nao\n\nInsira o valor da sua escolha: ");
 	scanf("%d", &sn);
 	if(sn == 1){
@@ -287,7 +288,7 @@ void game_2(){
     int num1, num2, num3, num4, num5;
     
 
-	const char* caixas[5] = {"*****\n *1*\n*****\n", "*****\n *2*\n*****\n", "*****\n *3*\n*****\n", "*****\n *4*\n*****\n","*****\n *5*\n*****\n"};
+	const char* caixas[5] = {"*****\n * 1 *\n*****\n", "*****\n * 2 *\n*****\n", "*****\n * 3 *\n*****\n", "*****\n * 4 *\n*****\n","*****\n * 5 *\n*****\n"};
 	const char* caixa_vazia[1] ={"      \n*   *\n*****\n"};
 	do {
   
